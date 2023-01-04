@@ -1,12 +1,14 @@
 # Preprocessing-of-Image-datasets
 
 Data Collection Plan
+
 Stage one datasets are validated, peer-reviewed, and made available for academic purposes. 
 These datasets are processed to label eight familiar landmarks for both datasets. 
 JAFFE datasets are grayscale, whereas some CK+ datasets are in color; therefore, all color images are converted to grayscale for consistency
 
 
 Raw Dataset Samples
+
 The JAFFE dataset consists of 213 images with seven labels: fear, sadness, happiness, surprise, anger, disgust, and neutral. 
 Raw samples of the JAFFE dataset are shown in Figure 15. The CK+ dataset consists of 969 images with seven labels: fear, sadness, happiness, 
 surprise, anger, disgust, and contempt. Raw samples of CK+ dataset are shown in Figure 16. Both datasets have six standard labels and 
@@ -14,6 +16,7 @@ one different label: neutral and contempt, so the total number of labels is eigh
 have the exact resolution, 256 by 256. The format of CK+ is PNG, and there are three resolutions 640 by 490, 640 by 480, and 720 by 480.
 
 Data Transformation
+
 The act of transforming, purifying,and organizing data into a proper format that can be studied to support decision-making 
 procedures and to spur an organization's growth is known as data transformation. When data needs to be modified to conform to 
 the requirements of the target system, it is used. At the enterprise level, various pricey and open-source Extract, Transform, 
